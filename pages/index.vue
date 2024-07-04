@@ -1,3 +1,28 @@
 <template>
-  <p>conteudo</p>
+  <div class="images">
+    <ImageButton
+      id="cecilia"
+      src="cecilia.png"
+      alt="Retrato de uma mulher com expressão séria com colagens cor magenta em seu rosto"
+    />
+    <ImageButton
+      id="rafaela"
+      src="rafaela.png"
+      alt="Retrato de uma mulher sorridente de corpo inteiro com um vestido azul"
+    />
+  </div>
 </template>
+
+<style scoped>
+.images {
+  min-height: calc(100vh - 208px);
+  position: relative;
+}
+
+@media (max-width: 1023px) {
+  .images {
+    display: grid;
+    gap: 16px;
+  }
+}
+</style>

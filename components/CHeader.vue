@@ -35,14 +35,21 @@
 </template>
 <style scoped>
 .header {
-  align-items: center;
+  background-color: var(--white);
   box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
   padding: 16px var(--size-padding);
   position: sticky;
   top: 0;
   width: 100%;
+  z-index: 2;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .header__h1 {

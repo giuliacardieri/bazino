@@ -8,10 +8,8 @@
 </template>
 <style>
 .footer {
-  bottom: 0;
   box-sizing: border-box;
   padding: 16px var(--size-padding);
-  position: absolute;
 }
 
 .footer__p {
