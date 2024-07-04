@@ -1,26 +1,21 @@
 <template>
-  <button :class="`image-button image-button--${id}`">
+  <router-link :class="`image-button image-button--${id}`" :to="link">
     <img
       class="image-button__img"
       :src="`./assets/buttons/${src}`"
       :alt="alt"
     />
-  </button>
+  </router-link>
 </template>
 <script setup>
 defineProps({
   id: { type: String, default: "" },
   src: { type: String, default: "" },
   alt: { type: String, default: "" },
+  link: { type: String, default: "/" },
 });
 </script>
 <style scoped>
-.image-button {
-  background: transparent;
-  border: 0;
-  cursor: pointer;
-}
-
 .image-button__img {
   width: 100%;
 }

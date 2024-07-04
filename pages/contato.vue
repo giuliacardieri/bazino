@@ -1,7 +1,7 @@
 <template>
   <h2 class="main__h2">contato</h2>
   <IconTextGroup icon="email">
-    <a href="mailto:mat.baz@hotmail.com" target="_blank">mat.baz@hotmail.com</a>
+    <p>mat.baz@hotmail.com</p>
   </IconTextGroup>
   <IconTextGroup icon="whatsapp">
     <a href="https://wa.me/5511974631283" target="_blank">11 97463 1283</a>

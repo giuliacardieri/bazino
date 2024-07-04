@@ -4,7 +4,7 @@
   </NuxtLayout>
 </template>
 <style>
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 
 :root {
   --white: #fff;

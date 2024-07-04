@@ -21,7 +21,7 @@
 .main__h2 {
   color: var(--black);
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0 0 16px 0;
   text-transform: uppercase;
 }

@@ -16,9 +16,11 @@ defineProps({
   gap: 8px;
 }
 
-.icon-text-group__text :deep(a) {
+.icon-text-group__text :deep(a),
+.icon-text-group__text :deep(p) {
   color: var(--black);
   font-size: 16px;
+  margin: 0;
   text-decoration: none;
 }
 </style>

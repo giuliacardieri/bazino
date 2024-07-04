@@ -7,14 +7,127 @@
   "items": [
     {
       "title": "MÉRITO",
+      "link": "merito",
+      "images": [
+        {
+          "src": "familia/merito/1.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/merito/2.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/merito/3.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/merito/4.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/merito/5.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/merito/6.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/merito/7.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/merito/8.png",
+          "alt": "descricao"
+        }
+      ],
       "description": "2018 | 594x840mm | COLAGEM MANUAL COM PAPEL CANSON, ADESIVO BRILHANTE E PAPEL CAMURÇA."
     },
     {
       "title": "REVISÃO",
+      "link": "revisao",
+      "images": [
+        {
+          "src": "familia/revisao/1.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/revisao/2.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/revisao/3.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/revisao/4.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/revisao/5.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/revisao/6.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/revisao/7.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/revisao/8.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/revisao/9.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/revisao/10.png",
+          "alt": "descricao"
+        }
+      ],
       "description": "2017 | 742x1050mm | COLAGEM MANUAL COM PAPEL CANSON, BORDADO COM LINHA DE LÃ, APLICAÇÃO DE ESPUMA, PAPEL CREPOM E ADESIVO BRILHANTE."
     },
     {
       "title": "GAIOLA",
+      "link": "gaiola",
+      "images": [
+        {
+          "src": "familia/gaiola/1.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/gaiola/2.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/gaiola/3.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/gaiola/4.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/gaiola/5.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/gaiola/6.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/gaiola/7.png",
+          "alt": "descricao"
+        },
+        {
+          "src": "familia/gaiola/8.png",
+          "alt": "descricao"
+        }
+      ],
       "description": "2021 | 42x230cm | COLAGEM MANUAL COM PAPEL CANSON, L MINA DE MADEIRA, FOLHA DE ACETATO, CÉDULA ORIGINAL DE DEZ MIL CRUZADOS, CARTÃO DE CRÉDITO E CORRENTE DE CRISTAIS."
     }
   ]

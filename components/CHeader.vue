@@ -55,7 +55,7 @@
 .header__h1 {
   color: var(--black);
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .header__ul {
