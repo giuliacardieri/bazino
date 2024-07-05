@@ -19,11 +19,20 @@ import sobre from "../data/sobre.json";
   gap: 48px;
 }
 
-.image-text-group__text {
-  width: 40%;
+@media (max-width: 1023px) {
+  .image-text-group {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
 
-.image-text-group__image {
-  width: 60%;
+@media (min-width: 1024px) {
+  .image-text-group__text {
+    width: 40%;
+  }
+
+  .image-text-group__image {
+    width: 60%;
+  }
 }
 </style>

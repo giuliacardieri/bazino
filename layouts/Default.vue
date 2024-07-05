@@ -9,7 +9,7 @@
 <style>
 .layout {
   display: grid;
-  grid-template-rows: 128px auto 80px;
+  grid-template-rows: 128px minmax(calc(100vh - 208px), auto) 80px;
 }
 
 .main {
@@ -21,13 +21,21 @@
 .main__h2 {
   color: var(--black);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0 0 16px 0;
   text-transform: uppercase;
 }
 
+.main__h2--bold {
+  font-weight: 400;
+}
+
 .main__p {
   margin: 0;
+}
+
+.main__p--small {
+  font-size: 14px;
 }
 
 .main__p + .main__p {

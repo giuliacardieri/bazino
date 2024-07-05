@@ -22,6 +22,13 @@ defineProps({
   margin-top: 32px;
 }
 
+@media (max-width: 1023px) {
+  .gallery {
+    gap: 16px;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 .gallery__image {
   width: 100%;
 }

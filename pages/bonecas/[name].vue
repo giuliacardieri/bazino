@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h2 class="main__h2">{{ boneca?.title }}</h2>
-    <p class="main__p">{{ boneca?.description }}</p>
+    <h2 class="main__h2 main__h2--bold">{{ boneca?.title }}</h2>
+    <p class="main__p main__p--small">{{ boneca?.description }}</p>
     <Gallery v-if="boneca?.images" :images="boneca?.images" />
   </section>
 </template>
