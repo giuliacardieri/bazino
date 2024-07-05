@@ -9,7 +9,12 @@
 <style>
 .layout {
   display: grid;
-  grid-template-rows: 128px minmax(calc(100vh - 208px), auto) 80px;
+  grid-template-rows: 128px minmax(calc(100vh - 176px), auto) 48px;
+}
+@media (max-width: 1023px) {
+  .layout {
+    grid-template-rows: 128px minmax(calc(100vh - 208px), auto) 80px;
+  }
 }
 
 .main {

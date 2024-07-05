@@ -17,7 +17,6 @@
 
 <style scoped>
 .images {
-  min-height: calc(100vh - 208px);
   position: relative;
 }
 

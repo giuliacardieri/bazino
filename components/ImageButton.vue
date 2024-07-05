@@ -28,13 +28,13 @@ defineProps({
 
   .image-button--cecilia {
     left: -32px;
-    top: -64px;
+    top: -23px;
     width: 500px;
   }
 
   .image-button--rafaela {
     left: 429px;
-    top: 134px;
+    top: 174px;
     width: 300px;
   }
 }
